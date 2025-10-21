@@ -1,2 +1,2 @@
 # projetoDoChatBot
-https://Otto-Loterio.github.io/projetoChatBot/index.html
+https://Otto-Loterio.github.io/projetoDoChatBot/index.html
