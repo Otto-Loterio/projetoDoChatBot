@@ -1,0 +1,141 @@
+body {
+    background-color: #eeeeee;
+}
+
+#botaoJanela {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color: #6868ff;
+    border: 3px #0909ca solid;
+}
+
+
+#botaoJanela:active {
+    background-color: rgb(135, 135, 255);
+}
+
+#botaoModoEscuro{
+    cursor: pointer;
+    margin: .4rem;
+    font-size: 16pt;
+    border-radius: 1.4rem;
+    padding: .8rem;
+    background-color: #504c41;
+    border: 3px #0c0c0c solid;
+}
+
+#chatBot {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 3px solid #0909ca;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+#headerChatBot {
+    padding: 1rem;
+    background-color: #6868ff;
+    border-bottom: 3px solid #0909ca;
+}
+
+#bodyChatBot {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#footerChatBot {
+  display: flex;
+  border-top: 1px solid #7e7ed6;
+}
+
+#inputUsuario {
+  flex: 1;
+  border: none;
+  padding: 10px;
+}
+
+#botaoEnviar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.chat {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modoEscuro #inputUsuario::placeholder {
+    color: #7e7e7e;
+}
+
+#bodyChatBot p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botaoMaximizar {
+    font-size: 12pt;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background-color: #6868ff;
+}
+
+#botaoFechar {
+    font-size: 12pt;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background-color: #6868ff;
+}
+
+@media (max-width: 600px) {
+  #chatBot {
+    width: 95%;
+    right: 10px;
+    bottom: 10px;
+    height: 70vh;
+  }
+
+  #botaoJanela {
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  #botaoModoEscuro {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  #headerChatBot {
+    padding: 0.8rem;
+  }
+
+  #inputUsuario,
+  #botaoEnviar {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+ 
